@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Harwood - Professional Internet Guy</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <script src="../bower_components/modernizr/modernizr.js"></script>
+</head>
+<nav class="top-bar show-for-small-only" data-topbar role="navigation">
+    <ul class="title-area">
+        <li class="name">
+            <a href="../index.html"><img href="../index.html" src="../images/logo.svg" alt=""></a>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar"><a href="../#"><span>Menu</span></a></li>
+    </ul>
+
+    <section class="top-bar-section">
+
+        <!-- Left Nav Section -->
+        <ul class="left">
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="mailto:brandonaharwood@gmail.com?Subject=Hey%20Brandon!" target="_top">Email me</a></li>
+        </ul>
+    </section>
+</nav>
+
+<body>
+
+    <div class="container">
+        <div class="show-for-medium-up medium-3 large-2 columns text-center" id="left-column">
+            <div class="me-info">
+                <a href="../index.html"><img src="../images/logo.svg" alt="Brandon Harwood, Denton based web and user experience designer"></a>
+                <p>Brandon Harwood
+                    <br>210-877-4395
+                    <br><a href="../web/viewer.html?file=%2Fbharwood-resume.pdf">Resume</a></p>
+            </div>
+            <ul class="side-nav">
+                <li><a href="../portfolio.html">Portfolio</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../blog.html">Blog</a></li>
+                <li><a href="mailto:brandonaharwood@gmail.com?Subject=Hey%20Brandon!" target="_top">Email me</a></li>
+            </ul>
+        </div>
+        <div class="medium-9 large-10 columns">
+            <div class="pageheader">
+                <br class="show-for-small-only">
+                <br class="show-for-small-only">
+                <h1>Case Study: Fujitsu</h1>
+            </div>
+            <div class="row bodycontent">
+                <div class="small-12 content">
+                    <h2>Goal:</h2>
+                    <p>Fujitsu’s extranet, specifically the Customer Service Request (CSR), is used by clients working with Fujitsu whenever they have a problem or need to check the status of an order. When I was brought onto the team they were in the process of remodeling the 15 year old website to better-fit Fujitsu Global design standards. My goal for the CSR section of the website was to figure out usability problems, come up with workarounds, and re-design it to fit said standards.
+                        <br>
+                        <br>While, throughout the summer, I designed the entire service request subsection, we'll focus on the CSR in this case study.
+                    </p>
+                </div>
+                <div class="small-12 medium-6 content columns">
+                    <p>So basically, I turned this:</p>
+                    <a href="../#" data-reveal-id="f1modal"><img src="../images/1original.png" alt="Fujitsu's before image"></a>
+                </div>
+                <div class="small-12 medium-6 content columns">
+                    <p>Into this:</p>
+                    <a href="../#"><img src="../images/fujitsunew.png" alt="Fujitsus after image" data-reveal-id="f2modal"></a>
+
+                </div>
+                <div class="small-12 content">
+                    <h2>Process:</h2>
+                    <p>So, my first step was to actually analyze what was wrong with the old version. A few things stick out right away that are obvious; like the fact that it was a 15 year old website, and it didn’t follow many modern web standards. So following that, the team and I analyzed a bit more and concluded that the following were the most prominent problems, and came up with solutions. </p>
+                </div>
+
+                <div class="small-12 content">
+                    <h4>Problem 1:</h4>
+                    <p>One major problem with the CSR page specifically was that there were too many data inputs in their forms. The majority of these inputs were barely, if ever used, but were essential in the event they were needed during a request. Out of the possible 21 inputs for this one form, only 6 were used on a regular basis. </p>
+                    <div class="small-12 columns">
+                       <p>The fix: The 6 most regularly used input options were put up front and center. I went ahead and added a multi-select option bar at the top so user can add more customization to their search if they’d like. This uses a good amount a jQuery, which was definitely a fun learning experience!
+                    </p> 
+                    </div>
+                    <div class="small-12 columns text-center">
+                        <img src="../images/upandfront.png" alt="Six most common choices" style="max-height:300px;">
+                    </div>
+                </div>
+                <div class="small-12 columns content">
+                    <h4>Problem 2:</h4>
+                    <p> A very small multi select system was implemented for choosing a specific system used by a company. You could scroll down the list, however by doing so you would often pass by 5 options at a time without seeing them. There was an option for choosing multiple systems as well, however more than one was rarely, if ever chosen.  </p>
+                        <p>The fix: A fuller, more traditional dropdown menu system was implemented. 
+ </p>
+                </div>
+                <div class="small-12 columns content">
+                    <h4>Problem 3:</h4>
+                    <p>So obviously, being such an old website, it definitely wasn't responsive. It was accessible from a mobile phone, but did not scale to any particular size. </p>
+                    <p>The fix: It was decide by the team to create all of the content built on top of the wonderful Zurb Foundation 5 framework. </p>
+                    <div class="row text-center">
+                        <div class="small-12">
+                            <div class="small-6 columns">
+                                <p>Before:</p><img src="../images/f1phone.png" style="max-height:300px;" alt=""></div>
+                            <div class="small-6 columns">
+                                <p>After:</p><img src="../images/f2phone.png" style="max-height:300px;" alt=""></div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="small-12 columns content">
+                    <h4>Problem 4:</h4>
+                    <p> Once a search was completed, a list of results would show with options to view details about each result. If one wanted to view the details, there would be no option to go back, thus starting the entire process over again.</p>
+                        <p>The fix: A whole new fully responsive detail page template was added so that users could easily not only view the page and switch between results, but print only the information they needed, and add comments straight from the detail page.   
+ </p>
+               <div class="small-12 columns text-center content">
+                   <video loop autoplay src="../images/test.mp4" style="width:100%;"></video>
+               </div>
+                </div>
+                <div class="smal-12 columns content">
+                    <h4>Conclusion;</h4>
+                    <p>Now, for a 1500+ page website, this was only a small portion and a lot of the trial and error we as a team went through isn't fully expressed here. I was brought on in order to help the team develop a common template that can be used on the rest of the site. Throughout the summer, I learned a lot on usability, performing my own studies and figuring out best practices. I want to make clear that this was a <i>team effort.</i> I couldn't have done a lot of this without the guidance of the web development team from Fujitsu Network Communications.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modals-->
+    <div id="f1modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <img src="../images/1original.png" alt="">
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+    <div id="f2modal" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+        <img src="../images/FujitsuNew.png" alt="">
+        <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+    </div>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/foundation/js/foundation.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>
