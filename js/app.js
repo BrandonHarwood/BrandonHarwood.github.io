@@ -14,8 +14,8 @@ $(document).ready(function () {
         $('.changingwords').fadeOut(function () {
             $(this).html(words[i = (i + 1) % words.length]).fadeIn();
         });
-        // 3 seconds
-    }, 4000);
+        // 2.5 seconds
+    }, 2500);
 
 })();
     

@@ -554,3 +554,27 @@ a.twitter i:hover {
         display: none;
     }
 }
+
+/*------------------------*/
+/*----work----------------*/
+/*------------------------*/
+
+.title.fnc {
+    font-size: 4em;
+    font-weight: 600;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    min-width: 100%;
+    color: white;
+    padding: 100px 10px 10px 30px;
+        width: 100%;
+    background: url(../img/work/fujihead.png);
+    min-height: 300px;
+    max-height: 600px;
+    display: table;
+}
+
+.display {
+    margin-bottom: 50px;
+}
