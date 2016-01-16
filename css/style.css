@@ -204,6 +204,9 @@ p {
     border-top: 20px solid white;
 }
 
+span.pagetitle {
+    padding: 20px;
+}
 
 /*------------------------*/
 /*----Recent work---------*/
@@ -441,7 +444,7 @@ a.twitter i:hover {
 }
 
 .blog p {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 .blog a.button {
@@ -484,8 +487,7 @@ a.twitter i:hover {
 .blog a::-moz-selection {
     background: #FF6B6B;
     color: #F1595A;
-}
-
+} 
 
 
 /*------------------------*/
@@ -560,21 +562,56 @@ a.twitter i:hover {
 /*------------------------*/
 
 .title.fnc {
-    font-size: 4em;
-    font-weight: 600;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    color: white;
-    min-width: 100%;
     color: white;
     padding: 100px 10px 10px 30px;
         width: 100%;
-    background: url(../img/work/fujihead.png);
+    background: url(../img/work/fujihead.png) no-repeat center center / cover;
     min-height: 300px;
-    max-height: 600px;
+    max-height: 400px;
     display: table;
 }
 
-.display {
-    margin-bottom: 50px;
+.work-showcase {
+    padding: 10px;
+}
+
+.work-showcase p {
+    padding-bottom: 20px;
+}
+
+span.hint {
+    font-size: .5em;
+    color: gray;
+}
+
+@media(min-width:40em) {
+    .mob-disp1:hover img.f1-nohover {
+        display: none;
+        transition: .3s;
+    }
+    .mob-disp1:hover img.f1-hover {
+        display: block;
+        transition: .3s;
+    }
+    .mob-disp1 img.f1-hover {
+        display: none;
+        transition: .3s;
+    }
+    
+    .mob-disp2:hover img.f2-nohover {
+        display: none;
+        transition: .3s;
+    }
+    .mob-disp2:hover img.f2-hover {
+        display: block;
+        transition: .3s;
+    }
+    .mob-disp2 img.f2-hover {
+        display: none;
+        transition: .3s;
+    }
+}
+
+.mob-disp1 .device-mockup, .mob-disp2 .device-mockup {
+    margin-top: 30px;
 }
