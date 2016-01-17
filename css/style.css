@@ -22,6 +22,9 @@ body.blog, body.about {
     min-width: 100%;
 }
 
+p a:hover {
+    text-decoration: underline;
+}
 
 /*------------------------*/
 /*----  Header   ---------*/
@@ -566,6 +569,16 @@ a.twitter i:hover {
     padding: 100px 10px 10px 30px;
         width: 100%;
     background: url(../img/work/fujihead.png) no-repeat center center / cover;
+    min-height: 300px;
+    max-height: 400px;
+    display: table;
+}
+
+.title.tcf {
+    color: white;
+    padding: 100px 10px 10px 30px;
+        width: 100%;
+    background: url(../img/work/tcf/TCFhead.png) no-repeat center center / cover;
     min-height: 300px;
     max-height: 400px;
     display: table;
