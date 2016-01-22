@@ -26,6 +26,10 @@ p a:hover {
     text-decoration: underline;
 }
 
+.blogtitle{
+    color: #333;
+}
+
 /*------------------------*/
 /*----  Header   ---------*/
 /*------------------------*/
@@ -178,7 +182,6 @@ h5 {
 }
 
 .menu ul li {
-    font-size: 13px;
     color: rgba(11,18,29,.4);
     text-shadow: 0 1px 2px rgba(255,255,255,.5);
 }
@@ -461,7 +464,24 @@ a.twitter i:hover {
     padding-top: 100px;
     padding-bottom: 50px;
     color: white;
-    background: #333;
+    line-height: 1em;
+}
+
+.showcase-mockup {
+    margin-top: -190px;
+}
+
+
+@media(max-width:40em) {
+    .showcase-mockup {
+    margin-top: -160px;
+}
+}
+
+@media(min-width:64em) {
+    .showcase-mockup {
+    margin-top: -350px;
+}
 }
 
 .blog a {
@@ -587,13 +607,11 @@ a.twitter i:hover {
 /*------------------------*/
 
 .title.fnc {
-    color: white;
     padding: 100px 10px 10px 30px;
         width: 100%;
-    background: url(../img/work/fujihead.png) no-repeat center center / cover;
-    min-height: 300px;
-    max-height: 400px;
-    display: table;
+    min-height: 500px;
+    background-size:contain;
+    background: rgb(62,98,149);
 }
 
 .title.tcf {
@@ -606,8 +624,20 @@ a.twitter i:hover {
     display: table;
 }
 
+.title p {
+    font-size: .3em;
+    font-weight: 400;
+}
+
 .work-showcase {
     padding: 10px;
+}
+
+@media(min-width:64em) {
+    .work-showcase {
+        margin-top: -65px;
+        
+}
 }
 
 .work-showcase p {
