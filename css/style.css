@@ -177,6 +177,12 @@ h5 {
     }
 }
 
+.menu ul li {
+    font-size: 13px;
+    color: rgba(11,18,29,.4);
+    text-shadow: 0 1px 2px rgba(255,255,255,.5);
+}
+
 .content-head {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -210,6 +216,22 @@ p {
 span.pagetitle {
     padding: 10px;
 }
+
+h2 span {
+    padding-top:5px;
+}
+
+.dc.resume {
+    padding: 20px;
+    border: 1px solid rgba(50,50,50,.3);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.003);
+    border-radius: 4px;
+}
+
+.atext {
+    margin-bottom: 10px;
+}
+
 
 /*------------------------*/
 /*----Recent work---------*/
@@ -633,3 +655,4 @@ span.hint {
     margin-right: 0;
     margin-left: 0;
 }
+
