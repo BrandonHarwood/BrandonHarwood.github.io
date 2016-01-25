@@ -437,7 +437,7 @@ html, body {
 
 .footer {
     width: 100%;
-    height:150px;
+    height:160px;
     line-height: 50px;
     text-align: center;
     background-color: rgba(50,50,50,1);
@@ -653,6 +653,22 @@ a.twitter i:hover {
     background: rgb(78,185,136);
 }
 
+.title.ads {
+    padding: 60px 10px 10px 30px;
+        width: 100%;
+    min-height: 450px;
+    background-size:contain;
+    background: rgb(224,68,82);
+}
+
+.title.soc {
+    padding: 60px 10px 10px 30px;
+        width: 100%;
+    min-height: 30px;
+    background-size:contain;
+    background: rgb(45,71,140);
+}
+
 @media(max-width:40em) {
     .title.tcf span {
         font-size: .7em;
@@ -723,6 +739,47 @@ span.hint {
 }
 
 .lowfidelity img {
+    padding: 10px;
+}
+
+.moreads {
+    padding-bottom: 30px;
+}
+.readmore{
+    padding: 10px 50px 10px 50px;
+    border: 1px solid rgba(200,200,200,.5);
+    border-radius: 30px;
+    transition: .2s;
+}
+
+
+.resume-button a {
+    color: #FF6B6B;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid rgba(200,200,200,.5);
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.readmore:hover {
+    background-color: #FF6B6B;
+    color: white;
+    transition: .2s;
+}
+
+p.note {
+    font-size: .9em;
+}
+
+.ttl span{
+    margin-bottom: 30px;
+}
+
+.ttl h5 {
+    padding-top: 30px;
+}
+
+.abstract {
     padding: 10px;
 }
 
