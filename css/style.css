@@ -216,6 +216,10 @@ p {
     border-top: 20px solid white;
 }
 
+div.aboutbody {
+    
+}
+
 span.pagetitle {
     padding: 10px;
 }
@@ -224,17 +228,32 @@ h2 span {
     padding-top:5px;
 }
 
-.dc.resume {
-    padding: 20px;
-    border: 1px solid rgba(50,50,50,.3);
-    box-shadow: 1px 1px 1px rgba(0,0,0,.003);
-    border-radius: 4px;
-}
-
 .atext {
     margin-bottom: 10px;
 }
 
+.work.nonhead {
+    padding-top: 30px;
+}
+
+.resume-button a {
+    color: #FF6B6B;
+    padding: 20px 20px 10px 20px;
+    border: 1px solid rgba(200,200,200,.5);
+    border-radius: 30px;
+    transition: .2s;
+}
+
+.resume-button a:hover {
+    background-color: #FF6B6B;
+    color: white;
+    transition: .2s;
+}
+
+.resume-button {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 /*------------------------*/
 /*----Recent work---------*/
@@ -252,7 +271,7 @@ h2 span {
 
 @media (min-width:40em) {
     .work {
-        height: 320px;
+        height: 340px;
         vertical-align: middle;
     } 
     .workdesc {
@@ -267,6 +286,13 @@ h2 span {
     .work a {
         color: white;
         font-size: 1.5em;
+    }
+    .work {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .work h2 {
+      font-size: 2em;  
     }
 }
 
@@ -489,7 +515,8 @@ a.twitter i:hover {
 }
 
 .blog p {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .blog a.button {
@@ -602,6 +629,10 @@ a.twitter i:hover {
     }
 }
 
+.contact {
+    
+}
+
 /*------------------------*/
 /*----work----------------*/
 /*------------------------*/
@@ -615,13 +646,18 @@ a.twitter i:hover {
 }
 
 .title.tcf {
-    color: white;
-    padding: 100px 10px 10px 30px;
+    padding: 60px 10px 10px 30px;
         width: 100%;
-    background: url(../img/work/tcf/TCFhead.png) no-repeat center center / cover;
-    min-height: 300px;
-    max-height: 400px;
-    display: table;
+    min-height: 500px;
+    background-size:contain;
+    background: rgb(78,185,136);
+}
+
+@media(max-width:40em) {
+    .title.tcf span {
+        font-size: .7em;
+        line-height: .1em;
+    }
 }
 
 .title p {
@@ -685,4 +721,9 @@ span.hint {
     margin-right: 0;
     margin-left: 0;
 }
+
+.lowfidelity img {
+    padding: 10px;
+}
+
 

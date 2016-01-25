@@ -15,7 +15,7 @@ $(document).ready(function () {
             $(this).html(words[i = (i + 1) % words.length]).fadeIn();
         });
         // 2.5 seconds
-    }, 2500);
+    }, 3200);
 
 })();
     
